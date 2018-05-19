@@ -28,7 +28,7 @@ class BasicLayout extends React.Component {
 
 const mapStateToProps = store => {
   return {
-    data: store.AuthReducer.data,
+    data: store.SimpleReducer.data,
   };
 };
 
